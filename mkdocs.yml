@@ -1,0 +1,78 @@
+site_name: "Мой замечательный мальчик: Книга родителей о самом главном"
+site_description: "Книга для родителей и сына — читать по одной главе за вечер"
+# CI подставит URL GitHub Pages при деплое
+site_url: http://127.0.0.1:8000/
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: ru
+  font:
+    text: Literata
+    code: JetBrains Mono
+
+  features:
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tooltips
+    - header.autohide
+
+  # Тёмная тема первой — книга чаще читается на ночь
+  palette:
+    - scheme: slate
+      primary: brown
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+
+    - scheme: default
+      primary: brown
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+
+nav:
+  - Начало: index.md
+  - "Часть 1. Вера и Бог": part-01-vera.md
+  - "Часть 2. Тело и сила": part-02-telo.md
+  - "Часть 3. Семья и дом": part-03-semya.md
+  - "Часть 4. Друзья и школа": part-04-druzya.md
+  - "Часть 5. Экраны и сердце": part-05-serdtse.md
+  - "Часть 6. Библейские истории": part-06-bibliya.md
+  - "Часть 7. Привычки сердца": part-07-privychki.md
+  - "Часть 8. Безопасность и люди": part-08-bezopasnost.md
+  - "Часть 9. Быт и осторожность": part-09-byt.md
+  - "Часть 10. Церковь": part-10-tserkov.md
+  - "Часть 11. Расти в мудрости": part-11-mudrost.md
+  - "Часть 12. Близость и границы": part-12-granitsy.md
+  - "Часть 13. Доброта дома": part-13-dom.md
+  - "Часть 14. Каждый день": part-14-den.md
+  - "Часть 15. Вместе дальше": part-15-vmeste.md
+  - "Часть 16. Маленькая забота": part-16-zabota.md
+  - "Часть 17. Расти и быть в безопасности": part-17-rastem.md
+  - "Часть 18. Деньги и сердце": part-18-dengi.md
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/continue-reading.js
+
+markdown_extensions:
+  - meta
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: false
+      toc_depth: 2
+      title: Главы
+
+plugins:
+  - search

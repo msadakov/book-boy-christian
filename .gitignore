@@ -1,0 +1,16 @@
+node_modules/
+.venv/
+venv/
+site/
+.cache/
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+*.egg-info/
+dist/
+build/
+full_book_backup.md
+
+# Full-size illustration sources (regenerate web assets via scripts/optimize_images.py)
+originals/illustrations/
