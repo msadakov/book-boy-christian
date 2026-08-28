@@ -8,6 +8,8 @@ title: "Мой замечательный мальчик: Книга родит�
 
 *Книга разделена на части — так удобнее читать с телефона: загружается только нужный раздел.*
 
+*Читать онлайн: [msadakov.github.io/book-boy-christian](https://msadakov.github.io/book-boy-christian/)*
+
 ![Вступление](illustrations/cover.webp){ loading=lazy }
 
 ## Как читать
